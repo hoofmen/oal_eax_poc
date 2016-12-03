@@ -15,7 +15,7 @@ Go to the root directory where main.cpp file is located and run:
 ```sh
 $ g++ -framework OpenAL main.cpp -o oal_eax_poc
 ```
-**On GNU/Linux** (`must have c++/g++ and  OpenAL installed`)
+**On GNU/Linux** (`must have c++/g++ and  OpenAL installed (tested on Ubuntu 16.04)`)
 ```sh
-$ g++ -lAL main.cpp -o oal_eax_poc 
+$ g++ main.cpp -std=gnu++11 -lopenal -o oal_eax_poc
 ```
